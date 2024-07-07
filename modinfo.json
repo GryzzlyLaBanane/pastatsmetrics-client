@@ -1,0 +1,38 @@
+ {
+   "context": "client",
+   "identifier": "com.pa.marechalgryzzly.pastatsmetrics",
+   "display_name": "pastatsmetrics",
+   "description": "Wanna see if you're a chad, go watch your stats, and send screenshots to your friends only when you win",
+   "author": "MarechalGryzzly",
+   "version": "1.0",
+   "build": "114880",
+   "date": "2024-20-06",
+   "signature": "not yet implemented",
+   "priority": 100,
+    "scenes": {
+        "live_game": [
+          "coui://ui/mods/pastatsmetrics/live_game/pastatsmetrics_gamedata.js"
+        ],
+        "live_game_econ": [
+          "coui://ui/mods/pastatsmetrics/live_game/pastatsmetrics_economy_bar.js"
+        ],
+        "live_game_unit_alert": [
+          "coui://ui/mods/pastatsmetrics/live_game/pastatsmetrics_unit_alert.js"
+        ],
+        "live_game_time_bar": [
+          "coui://ui/mods/pastatsmetrics/live_game/pastatsmetrics_time_bar.js"
+        ],
+        "new_game": [
+          "coui://ui/mods/pastatsmetrics/lobby/pastatsmetrics_lobbydata.js"
+        ],
+        "game_over":[
+          "coui://ui/mods/pastatsmetrics/game_over/pastatsmetrics_game_over.js"
+        ],
+        "new_game_ladder":[
+          "coui://ui/mods/pastatsmetrics/lobby/pastatsmetrics_ladderlobbydata.js"
+        ]
+
+
+    },
+    "category": ["ui","titans", "in-game"]
+ }
