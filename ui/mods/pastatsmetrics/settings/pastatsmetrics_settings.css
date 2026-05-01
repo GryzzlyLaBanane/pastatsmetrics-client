@@ -1,0 +1,63 @@
+/*
+ * PA Stats Metrics v8.1 — settings page styling
+ *
+ * Our settings rows are appended into PA's existing UI tab. These selectors
+ * scope every override to our injected block so we never affect rows owned
+ * by other mods or by the base game.
+ */
+
+#pastats-settings-block {
+    margin-top: 1.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid rgba(77, 207, 239, 0.35);
+}
+
+#pastats-settings-block .pastats-block-title {
+    font-size: 1.05em;
+    font-weight: bold;
+    color: #4dcfef;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.4em 0 0.6em 0;
+    margin: 0 0 0.5em 0;
+    border-bottom: 1px solid rgba(77, 207, 239, 0.25);
+}
+
+#pastats-settings-block .pastats-section-subtitle {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #aac8d6;
+    padding: 0.9em 0 0.3em 0;
+    margin: 0.4em 0 0.2em 0;
+    opacity: 0.85;
+}
+
+#pastats-settings-block .option {
+    margin: 0.2em 0;
+}
+
+#pastats-settings-block .pastats-reset-row {
+    margin-top: 1.5em;
+    padding-top: 1em;
+    border-top: 1px dashed rgba(255, 153, 51, 0.3);
+    text-align: right;
+}
+
+#pastats-settings-block .pastats-reset-btn {
+    background-color: rgba(180, 50, 30, 0.6);
+    color: #ffd0c0;
+    border: 1px solid rgba(255, 153, 51, 0.5);
+    padding: 0.4em 1em;
+    font-size: 0.85em;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#pastats-settings-block .pastats-reset-btn:hover {
+    background-color: rgba(220, 70, 40, 0.75);
+}
+
+#pastats-settings-block .pastats-reset-btn:active {
+    background-color: rgba(140, 40, 25, 0.8);
+}

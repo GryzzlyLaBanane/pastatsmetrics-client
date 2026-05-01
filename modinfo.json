@@ -1,0 +1,42 @@
+{
+  "context": "client",
+  "identifier": "com.pa.marechalgryzzly.pastatsmetrics_v8_5",
+  "display_name": "PA Stats Metrics v8.5",
+  "description": "Track your game statistics - economy, units, APM, kills - and view them on pastatsmetrics.com",
+  "author": "MarechalGryzzly",
+  "version": "8.5",
+  "build": "120799",
+  "date": "2026-04-27",
+  "signature": "not yet implemented",
+  "priority": 100,
+  "scenes": {
+    "live_game": [
+      "coui://ui/mods/pastatsmetrics/lib/unitInfoParser.js",
+      "coui://ui/mods/pastatsmetrics/live_game/pastatsmetrics_gamedata.js"
+    ],
+    "live_game_econ": [
+      "coui://ui/mods/pastatsmetrics/live_game/pastatsmetrics_economy_bar.js"
+    ],
+    "live_game_unit_alert": [
+      "coui://ui/mods/pastatsmetrics/lib/unitInfoParser.js",
+      "coui://ui/mods/pastatsmetrics/live_game/pastatsmetrics_unit_alert.js"
+    ],
+    "live_game_time_bar": [
+      "coui://ui/mods/pastatsmetrics/live_game/pastatsmetrics_time_bar.js"
+    ],
+    "live_game_options_bar": [
+      "coui://ui/mods/pastatsmetrics/live_game_options_bar/pastatsmetrics_optionsbar.js"
+    ],
+    "new_game": [
+      "coui://ui/mods/pastatsmetrics/lobby/pastatsmetrics_lobbydata.js"
+    ],
+    "game_over": [
+      "coui://ui/mods/pastatsmetrics/game_over/pastatsmetrics_game_over.js"
+    ],
+    "settings": [
+      "coui://ui/mods/pastatsmetrics/settings/pastatsmetrics_settings.css",
+      "coui://ui/mods/pastatsmetrics/settings/pastatsmetrics_settings.js"
+    ]
+  },
+  "category": ["ui", "titans", "in-game"]
+}
